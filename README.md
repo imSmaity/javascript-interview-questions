@@ -124,7 +124,6 @@ You can download the PDF and Epub version of this repository from the latest run
 |83 | [What is NaN property](#what-is-nan-property)|
 |84 | [What is the purpose of isFinite function](#what-is-the-purpose-of-isfinite-function)
 |85 | [What is an event flow](#what-is-an-event-flow)|
-|86 | [What is event bubbling](#what-is-event-bubbling)|
 |87 | [What is event capturing](#what-is-event-capturing)|
 |88 | [How do you submit a form using JavaScript](#how-do-you-submit-a-form-using-javascript)|
 |89 | [How do you find operating system details](#how-do-you-find-operating-system-details)|
@@ -1889,7 +1888,7 @@ You can download the PDF and Epub version of this repository from the latest run
 
 85. ### What is an event flow
 
-    Event flow is the order in which event is received on the web page. When you click an element that is nested in various other elements, before your click actually reaches its destination, or target element, it must trigger the click event for each of its parent elements first, starting at the top with the global window object.
+    Event flow is the order in which an event is received on the web page. When you click an element that is nested in various other elements, before your click actually reaches its destination or target element, it must trigger the click event for each of its parent elements first, starting at the top with the global window object.
     There are two ways of event flow
     1. Top to Bottom(Event Capturing)
     2. Bottom to Top (Event Bubbling)
